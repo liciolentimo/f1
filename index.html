@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Formula 1</title>
 </head>
 <body>
@@ -24,6 +25,30 @@
               <a class="p-2 text-muted" href="#">Search</a>
               <a class="p-2 text-muted" href="#">Tickets</a>
             </nav>
+          </div>
+          <div class="sign" align="right">
+             <a href="#" class="text-muted"> Login | Sign Up</a>
+          </div>
+          <div id="demo" class="carousel">
+                <div>
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                    <img src="img/ferrari.png">
+                </div> <hr>
+                
           </div>
     
     <!--Footer-->
@@ -101,5 +126,22 @@
           </div>
         </div>
         </footer>
+
+        
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.autoplay').slick({
+        slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+      });
+
+  </script>
+  
 </body>
 </html>
